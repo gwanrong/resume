@@ -44,7 +44,7 @@ html {
     animation: zoomIn 1s linear 0s infinite both;
 }
 
-.page1, .page2, .page3, .page4 {
+.page1, .page2, .page3 {
     position: relative;
     font-size: .48rem;
     color: rgb(83, 38, 19);
@@ -101,7 +101,7 @@ html {
 .page1 .img2 {
     position: absolute;
     left: -2rem;
-    top: 2.5rem;
+    top: 2.47rem;
     z-index: 2;
     -webkit-transform: rotateZ(326deg);
     -moz-transform: rotateZ(326deg);
@@ -319,41 +319,6 @@ html {
     transform: rotateZ(320deg);
 }
 
-.page4 ul {
-    position: absolute;
-    margin-top: 41px;
-    top: 0;
-    text-align: left;
-    width: 320px;
-    height: 486px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.page4 ul li:nth-child(1) {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 72px;
-    top: 301px;
-    background: url("../img/erweima.jpg") no-repeat;
-    background-size: cover;
-    -webkit-transition: padding .5s;
-    -moz-transition: padding .5s;
-    transition: padding .5s;
-    -webkit-user-select: none;
-}
-
-.page4 ul li:nth-child(2) {
-    position: absolute;
-    top: .86rem;
-    left: .76rem;
-    border: 2px dashed rgb(255, 255, 255);
-    border-radius: 50%;
-    width: 239px;
-    height: 236px;
-    animation: rotateIn 4s linear 1s infinite both;
-}
 
 #page1 .resume img {
     -webkit-animation: fadeInRight325 1.5s ease 0.1s 1 both;;
