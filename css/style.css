@@ -101,7 +101,7 @@ html {
 .page1 .img2 {
     position: absolute;
     left: -2rem;
-    top: 2.47rem;
+    top: 2.49rem;
     z-index: 2;
     -webkit-transform: rotateZ(326deg);
     -moz-transform: rotateZ(326deg);
