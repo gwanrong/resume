@@ -103,13 +103,16 @@ html {
     left: -2rem;
     top: 2.49rem;
     z-index: 2;
-    -webkit-transform: rotateZ(326deg);
-    -moz-transform: rotateZ(326deg);
-    -ms-transform: rotateZ(326deg);
-    -o-transform: rotateZ(326deg);
-    transform: rotateZ(326deg);
+    -webkit-transform: rotateZ(325deg);
+    -moz-transform: rotateZ(325deg);
+    -ms-transform: rotateZ(325deg);
+    -o-transform: rotateZ(325deg);
+    transform: rotateZ(325deg);
 }
 
+.page1 .resume img,.page1 .resume span,.page1 .img1 ,.list li span,.page1 .img2,.page1 .circle li span, .page1 .circle li img,.list li img, .list li strong {
+    opacity: 0;
+}
 .page1 .circle li {
     position: absolute;
     width: .8rem;
@@ -240,9 +243,7 @@ html {
     left: 0;
 }
 
-.list li span, .list li img, .list li strong {
-    opacity: 0;
-}
+
 
 .list li strong {
     top: 4.6rem;
